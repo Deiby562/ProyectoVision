@@ -17,6 +17,7 @@ Dataset_Frutas_Final_Red.yolov11/
 runs/
 *.log
 .DS_Store
+Pruebas/
 
 # --- Ignorar Modelos pesados ---
 # Solo sube el modelo final, no los pesos de cada prueba
