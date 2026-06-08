@@ -1,0 +1,25 @@
+# --- Ignorar archivos de Python y Entornos ---
+__pycache__/
+*.pyc
+venv/
+.env/
+env/
+.venv/
+conda-env/
+.vscode/
+!.vscode/extensions.json
+
+# --- Ignorar el Dataset (Lo que no quieres subir) ---
+# Si tu dataset es grande, nunca lo subas
+Dataset_Frutas_Final_Red.yolov11/
+
+# --- Ignorar Resultados y Logs ---
+runs/
+*.log
+.DS_Store
+
+# --- Ignorar Modelos pesados ---
+# Solo sube el modelo final, no los pesos de cada prueba
+# Si quieres mantener best.pt pero ignorar el resto:
+!runs/detect/train/weights/best.pt
+
