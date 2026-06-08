@@ -19,8 +19,4 @@ runs/
 .DS_Store
 Pruebas/
 
-# --- Ignorar Modelos pesados ---
-# Solo sube el modelo final, no los pesos de cada prueba
-# Si quieres mantener best.pt pero ignorar el resto:
-!runs/detect/train/weights/best.pt
 
