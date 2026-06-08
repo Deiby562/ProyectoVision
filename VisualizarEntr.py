@@ -3,6 +3,18 @@ import matplotlib.pyplot as plt
 import time
 import os
 
+""""
+Script para visualizar en tiempo real el progreso del entrenamiento
+de tu modelo YOLO11 Nano. Lee el archivo results.csv generado por
+el entrenamiento y grafica las métricas clave (mAP50(B) y mAP50-95(B))
+a medida que se actualizan. Asegúrate de que el archivo results.csv
+esté en la ruta correcta y que el script tenga permisos para leerlo.
+Ejecuta este script mientras entrenas tu modelo para ver cómo mejoran
+las métricas con cada epoch.
+"""
+
+
+
 # Configura la ruta a tu archivo results.csv
 ruta_csv = 'runs/detect/train/results.csv'
 
