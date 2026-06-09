@@ -13,10 +13,10 @@ class FruitQualApp:
         self.window.configure(bg="#2c3e50") # Fondo elegante oscuro
 
         # 1. CARGA DEL MODELO ENTRENADO (Etapa de Reconocimiento)
-        self.ruta_modelo = "Modelos/best.pt"
+        self.ruta_modelo = "Modelos/best1.pt"
         if os.path.exists(self.ruta_modelo):
             self.model = YOLO(self.ruta_modelo)
-            print("¡Éxito! FruitQual (best.pt) cargado en la interfaz.")
+            print("¡Éxito! FruitQual (best1.pt) cargado en la interfaz.")
         else:
             messagebox.showerror("Error", f"No se encontró el modelo en: {self.ruta_modelo}\nSe usará el modelo base por defecto.")
             self.model = YOLO("Modelos/yolo11n.pt")
