@@ -17,6 +17,10 @@ Dataset_Frutas_Final_Red.yolov11/
 runs/
 *.log
 .DS_Store
-Pruebas/
+
+!Pruebas/manzana.jpg
+Pruebas/*.jpg
+Pruebas/*.png
+Pruebas/*.jpeg
 
 

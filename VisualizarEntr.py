@@ -16,7 +16,7 @@ las métricas con cada epoch.
 
 
 # Configura la ruta a tu archivo results.csv
-ruta_csv = 'runs/detect/train/results.csv'
+ruta_csv = 'runs/detect/train-2/results.csv'
 
 def visualizar_en_tiempo_real():
     plt.ion()  # Modo interactivo
