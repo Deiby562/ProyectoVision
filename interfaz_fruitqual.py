@@ -49,7 +49,7 @@ class FruitQualApp:
         btn_cargar.pack(side="left", padx=20)
 
         self.btn_camara = tk.Button(
-            panel_botones, text=" Activar Cámara Web", font=("Arial", 11, "bold"),
+            panel_botones, text="  12Activar Cámara Web", font=("Arial", 11, "bold"),
             bg="#3498db", fg="white", width=22, command=self.conmutar_camara
         )
         self.btn_camara.pack(side="left", padx=20)
