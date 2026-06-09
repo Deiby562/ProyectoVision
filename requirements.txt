@@ -9,5 +9,6 @@ pillow
 pandas
 matplotlib
 scikit-learn
+albumentations
 
 # --extra-index-url https://download.pytorch.org/whl/cu121
