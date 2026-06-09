@@ -12,7 +12,7 @@ class FruitQualApp:
         self.window.geometry("1100x650")
         self.window.configure(bg="#2c3e50") # Fondo elegante oscuro
 
-        # 1. CARGA DEL MODELO ENTRENADO (Etapa de Reconocimiento)
+        # 1. CARGA DEL MODELO ENTRENADO (Etapa de Reconocimiento 1)
         self.ruta_modelo = "Modelos/best1.pt"
         if os.path.exists(self.ruta_modelo):
             self.model = YOLO(self.ruta_modelo)
