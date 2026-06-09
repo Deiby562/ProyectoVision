@@ -12,6 +12,7 @@ conda-env/
 # --- Ignorar el Dataset (Lo que no quieres subir) ---
 # Si tu dataset es grande, nunca lo subas
 Dataset_Frutas_Final_Red.yolov11/
+Dataset_Frutas_Final_v2.yolov11/
 
 # --- Ignorar Resultados y Logs ---
 runs/
