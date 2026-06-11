@@ -4,7 +4,7 @@ Configuración centralizada para el proyecto de detección de frutas.
 """
 
 # --- Rutas ---
-MODEL_PATH = "Modelos/best3.pt"
+MODEL_PATH = "Modelos/best4.pt"
 # Puedes añadir rutas a carpetas de log o exportación
 OUTPUT_FOLDER = "Resultados/"
 
